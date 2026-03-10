@@ -16,5 +16,17 @@ El programa permite:
 5. Mostrar autores vivos en un año específico.
 6. Listar libros por idioma.
 
+## Configuración de base de datos
+
+Antes de ejecutar el proyecto debes configurar las siguientes variables de entorno:
+
+DB_URL=jdbc:postgresql://localhost:5432/catalogo_libros  
+DB_USER=postgres  
+DB_PASSWORD=tu_password
+
+También debes crear la base de datos en PostgreSQL:
+
+CREATE DATABASE catalogo_libros;
+
 ## Autor:
 Tayra Soto Meza
